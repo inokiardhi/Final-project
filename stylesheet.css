@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+
+header {
+    padding-top:10px;
+    height: 80px;
+    width: 100%;
+    background-color:  rgb(255, 255, 255);
+    position :fixed;
+   
+    z-index: 10;
+    
+  }
+ 
+.logo {
+    font-size:30px;
+    width: 140px;
+    margin-top: 10px;
+    color:#53c96f;
+   
+  }
+
+.header-left a:hover{
+    text-decoration: none;
+    color:#53c96f;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-left {
+    float: left;
+    padding-top:10px; 
+    color:#53c96f;
+    display:block;
+    
+    margin-left:10px;
+  }
+
+.header-right {
+    float: right;
+    display: block;
+  }
+  
+.header-right a {
+    line-height: 50px; 
+    padding: 0 25px; 
+    color: rgb(0, 0, 0); 
+    display: block;
+    float: left; 
+    transition: all 0.8s;
+    text-decoration: none;
+    border-radius: 20px;
+  } 
+  
+.header-right a:hover {
+    background-color: rgba(206, 206, 206, 0.3);
+    text-decoration: none;
+    color:rgb(0, 0, 0) ;
+  }
+  
+  .top-wrapper {
+    padding: 160px 0px 350px 0px;
+    text-align: center;
+    background-image: url("./view.png");
+    background-position: bottom;
+   background-position-y: 70px;
+    background-size: cover;
+    background-color: aliceblue;
+  }
+
+
+.top-wrapper p {
+  padding-bottom:5px;
+  letter-spacing: 1px;
+  margin-bottom: 3px;
+  
+}
+
+  .top-part{
+    width: 100%;
+  }
+  
+  .top-part img {
+   
+    opacity:0.75;
+  
+    
+   
+  }
+  
+  .top-part img:hover{
+   
+    opacity:1;
+    transition:0.3s;
+    
+  
+    
+   
+  }
+
+  .text1{
+    animation: text 2s 1;
+  }
+  
+  @keyframes text{
+    0%{
+      color:white;
+      padding-top:80px;
+      letter-spacing:10px;
+  
+    }
+    
+    85%{
+  
+    }
+  }
+
+  .btn-wrapper {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  #btn-dark{
+    border-radius: 20px;
+    border-color: #868686;
+    padding: 5px 34px;
+  }
+
+  .btn {
+    background-color: rgb(228, 220, 220);
+    color:rgb(31, 31, 31);
+    display: inline-block;
+    opacity: 0.8;
+    text-align: center;
+  }
+
+  .message {
+    cursor: pointer;
+    box-shadow: 0 7px  #5e5e5e;
+    border-radius: 10px;
+  }
+
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+  .btn:hover {
+    opacity: 1;
+  }
