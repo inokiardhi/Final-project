@@ -154,3 +154,52 @@ a {
   .btn:hover {
     opacity: 1;
   }
+
+  .intro-wrapper{
+    padding-top:100px;
+    padding-right:30px;
+    padding-left:30px;
+  }
+
+  .col-md-6 img{
+    width:100%;
+  }
+
+  .col-md-6{
+    padding-top:20px;
+  }
+
+  .title{
+    padding-top:50px;
+    padding-bottom:20px;
+  }
+
+  .work-wrapper{
+    border-top:none;
+    text-align: center;
+  
+    letter-spacing: 2px;
+  }
+  
+  
+  
+  #work-title{
+  display: block;
+  padding:160px 30px;
+    background-color: #1c6596 ;
+    color:white;
+  }
+  
+  #work-exp{
+    display: block;
+    padding:160px 40px;
+      background-color: #456ace;
+      color:white;
+    }
+    #work-exp2{
+      display: block;
+      padding:160px 40px;
+        background-color:#7aa3d8 ;
+        color:white;
+      }
+    tes
