@@ -487,12 +487,17 @@ html {
 
 .sidenav .closebtn {
   position: absolute;
-  top: 0px;
+  top: 20px;
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
   padding: 0 5px;
   text-decoration: none;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .closebtn:hover {
