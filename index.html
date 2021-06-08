@@ -2,52 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    
+    <title>Inoki Ardhi</title>
+    <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="./favico.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="stylesheet.css">
-    <title>Inoki Ardhi</title>
-
+    
+    
     <script src="./script.js"></script>
 </head>
 <body>
+  
   <div id="mySidenav" class="sidenav">
     <a  class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#2">Hello</a>
-    <a href="#3">Work Experiences</a>
-    <a href="#4">Educations</a>
-    <a href="#5">Contact</a>
+    <a class="hover" href="#2">Hello</a>
+    <a class="hover" href="#3">Work Experience</a>
+    <a class="hover" href="#4">Educations</a>
+    <a class="hover" href="#5">Contact</a>
   </div>
 
-     <header id="header">
-         <div class="container">
-             <div class="header-left    font-weight-bold">
-                <a id="logo" href="#" class="logo" >Inoki </a>
-                <br>
 
-                <div class="custom-control custom-switch">
-                    <input type="checkbox" class="custom-control-input" id="myCheck" onclick="myFunction()">
-          
-                    <label style="color:rgb(177, 177, 177) " class="custom-control-label" for="myCheck">Dark Mode</label>
-                </div>
-             </div>
-
-            </div>
-            <a  id="menu-icon" class="menu-icon">
-              <span class="fa fa-bars" onclick="openNav()"></span>
-            </a>
-             <div id="header-right" class="header-right">
-                    <a href="#2">Hello</a>
-                    <a href="#3">Work Experiences</a>
-                    <a href="#4">Educations</a>
-                    <a href="#5">Contact</a>
-                </div>
-         </div>
+  <header class="header" id="header">  
+    
+         
+    <div class="container">
+      
+      <div id="header-left" class="header-left  font-weight-bold">
+        <a id="logo" href="#1" class="logo">Inoki </a>
+        <br>
+      
+        <div class="custom-control custom-switch">
+      
+          <input type="checkbox" class="custom-control-input" id="myCheck" onclick="myFunction()">
+        
+          <label style="color:rgb(177, 177, 177) " class="custom-control-label" for="myCheck">Dark Mode</label>
+        
+        </div>
+        
+      
+      </div>
+      <a  id="menu-icon" class="menu-icon">
+        <span class="fa fa-bars" onclick="openNav()"></span>
+      </a>
+      <div id="header-right" class="header-right">
+        <a href="#2">Hello</a>
+        <a href="#3">Work Experience</a>
+        <a href="#4">Educations</a>
+        <a href="#5">Contact</a>
+      </div>
+    </div>
+    
      </header>
 
     <div id=1 class="top-wrapper">
@@ -56,13 +62,13 @@
             <div class="top-part " id="top-part" >
               
               
-              <h2 class="font-weight-bold text1">Site Of</h2>
+              <h2 id="text1" class="font-weight-bold text1">Site Of</h2>
               <img src="./generatedtext.png" alt="">
               
-              <p>Want to know more about me?</p>
+              <p id="text2">Want to know more about me?</p>
               
               <div class="btn-wrapper">
-                <a href="#2" id="btn-dark" class="btn message btn-outline-dark">Learn More About Me</a>
+                <a href="#2" id="btn-dark" class="message">Learn More About Me</a>
               
               </div>
               
@@ -80,11 +86,11 @@
           <div class="row ">
             <div class="col-md-6">
               <h1 style="font-size:60px"class="title font-weight-bold">Hello!</h1>
-              <h3>My Name is <span class="blue font-weight-bold">Inoki Khalifatul Ardhi,</span></h3>
-              <p style="letter-spacing:1px">A simple person that loves to spend time in nature.
+              <h3>My Name is <span class="yellow font-weight-bold">Inoki Khalifatul Ardhi,</span></h3>
+              <p style="letter-spacing:1px">A simple person that loves to learn a new things.
               Was born in 1997 at Sumbawa, October, 7th. love sport and art.</p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 top-img">
               <img src="./future.png" alt="">
             </div>
             
@@ -97,17 +103,25 @@
     </div>
 
     <div  id=3 class="work-wrapper">
-        <div class="">
+        <div class="container">
           <div class="row">
-            <div id="work-title" class="col-md-4">
-              <h1 class="title font-weight-bold" >WORK EXPERIENCES</h1>
-            
-            </div>
-            <div id="work-exp" class="col-md-2">
+            <div id="work-title" class="col-md-6">
+              <h1 class="title font-weight-bold" >WORK EXPERIENCE</h1>
               <h4 class="yellow">INTERNSHIP PROGRAM</h4>
               <h6>Vaksinator</h6>
               <p>PT. Kandang Malang Pullet</p>
               <p>2019</p>
+            </div>
+            <div id="work-exp" class="col-md-6">
+              <h1 class="title font-weight-bold" >MY SKILLS</h1>
+              <h6 class="biru-ps">PHOTOSHOP</h6>
+              <div class="bar">
+                <div class="skills ps">95%</div>
+              </div>
+              <h6 class="yellow">ILLUSTRATOR</h6>
+              <div class="bar">
+                <div class="skills ai">90%</div>
+              </div>
             </div>
            
           
@@ -116,122 +130,108 @@
     </div>
   
     <div id=4 class="education-wrapper" >
-      <div class="container">
+      <div class="container border-btm">
        
-          <div class="row ">
-            
-              <div class="col-md-6 align">
-                <img src="./vector-creator (1).png" alt="">
-              </div>
-              <div class="col-md-3">
+          <div class="row">
+            <div class="col-sm-12">
                 <div class="content align">
-                  <h1 style="font-size:60px"class="title font-weight-bold">Educations</h1>
+                  <h1 id="text" style="font-size:60px"class="title font-weight-bold">Educations</h1>
               
-                  <ul>
-                    <li>
-                      <h4 class="blue">PRIMARY</h4>
-                      <h6>SDN 2 Sumbawa</h6>
-                      <p>2003 - 2009</p>
-                    </li>
-                    <li>
-                      <h4 class="blue">JUNIOR HIGH</h4>
-                      <h6>SMPN 1 Sumbawa Besar</h6>
-                      <p>2009 - 2012</p>
-                   
-                    </li>
-                    <li>
-                      <h4 class="blue">SENIOR HIGH</h4>
-                      <h6>SMAN 1 Sumbawa Besar</h6>
-                      <p>2012 - 2015</p>
-                    </li>
-                  </ul>
-                </div>
-                
-               </div>
-               <div class="col-md-3 right-content align" >
-                <div  class="content">
-                  <ul>
-                    <li>
-                         <h4 class="blue">GRADUATE</h4>
-                         <h6>Animal Husbandry - UB Malang</h6>
-                         <p>2016 - 2020</p>
-                    </li>
-                       
-                        
-                  </ul>
-                </div>
+                </div>  
+              </div>  
+           </div>
+           
+           <div class="row">
+            <div class="col-md-3">
+              <div>
+                <img src="sd.png" alt="">
+                <h4 class="blue">PRIMARY</h4>
+                <h6>SDN 2 Sumbawa</h6>
+                <p>2003 - 2009</p>
               </div>
-               
             </div>
-                
               
+            
+            <div class="col-md-3">
+              <div>
+                <img src="smp.png" alt="">
+                <h4 class="blue">JUNIOR HIGH</h4>
+                <h6>SMPN 1 Sumbawa Besar</h6>
+                <p>2009 - 2012</p>
+              </div>
+            </div>
+            
+            <div class="col-md-3">
+              <div>
+                <img src="sma.png" alt="">
+                <h4 class="blue">SENIOR HIGH</h4>
+                <h6>SMAN 1 Sumbawa Besar</h6>
+                <p>2012 - 2015</p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div>
+                <img src="clg.png" alt="">
+                <h4 class="blue">GRADUATE</h4>
+                <h6>Animal Husbandry - UB Malang</h6>
+                <p>2016 - 2020</p>
+              </div>
+            </div>
+
+           </div>
         </div>
+            
+      </div>
     </div>
 </div>
-
-<div id=5 class="contact-wrapper" >
-  <div class="container">
-   
-    <h1 style="text-align:center; font-size:60px; " class=" blue font-weight-bold">Any Questions?</h1>
-      <div class="row pd-t-30 ">
-        
-          <div class="col-md-6">
-           <img  src="./concat.png" alt="">
-          </div>
-          
-          <div class="col-md-6 pd-rl-20" >
-             
-              <form class="" action="">
-                <h1 >Contact Me</h1>
-                <p style="margin-top:0px; color:rgb(151, 151, 151);">Please fill the form below.</p>
-                  <div class="form-group pd-t-10">
-                      <label for="email" >Name<span>*</span></label>
-                      <input id="nama" type="text" required class="form-control" placeholder="Your Name">                 
-                  </div>
-
-                  <div class="form-group">
-                      <label for="email" >Email<span>*</span></label>
-                      <input id="email" type="email" required class="form-control" placeholder="Put your email here">                 
-                  </div>
-
-                  <div class="form-group">
-                      <label for="email" >Phone Number<span>*</span></label>
-                      <input id="nohp" type="text" required class="form-control" placeholder="ex:08xxxxxxxx">                 
-                  </div>
-
-                  <div class="form-group">
-                      <label for="email" >Message<span>*</span></label>
-                      <textarea name="message" id="message" cols="30" rows="2" required class="form-control" placeholder="ex:I am interested to work with you"></textarea>    
-                  </div>
-                 
-                  <div class="form-group">
-                      <button type="submit" class="btn-md btn-success form-control pd-rl-10" >
-                          SEND MESSAGE
-                      </button>
-                  </div>
-
-              </form>  
-               
-          </div>
+<div class="contact-wrapper">
+  <div id="5" class="container bg-grey">
+    <h2 class="text-center">CONTACT</h2>
+    <div class="row">
+      <div class="col-sm-5">
+        <p>Contact us and we'll get back to you within 24 hours.</p>
+        <p><span class="fa fa-map-marker"></span>Sumbawa Besar, Nusa Tenggara Barat</p>
+        <p><span class="fa fa-phone-square"></span>+6282146982563</p>
+        <p><span class="fa fa-envelope"></span>inokiardhi@gmail.com</p>
       </div>
+      <div class="col-sm-7">
+        <div class="row">
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+          </div>
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+          </div>
+        </div>
+        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+        <div class="row">
+          <div class="col-sm-12 form-group">
+            <button class="btn-send" type="submit">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
-<footer id="footer">
-<div class="container">
-  <div id ="flogo" class="footer-logo">
+</div>  
+
+  <footer id="footer">
+  <div class="container">
+    <div id ="flogo" class="footer-logo">
+      <img class="flogo" src="./flogo.png" alt="">
+    
+      <!-- <span class="font-weight-bold">Inoki</span> -->
+      <p>Copyright @2021 InokiArdhi</p>
+    </div>
   
-    <span class="font-weight-bold">Inoki</span>
-    <p>Copyright @2021 InokiArdhi| Illustration from <a class= "blue" href="https://icons8.com">icons8.com</a></p>
+    
   </div>
-  
-  
-</div>
 
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
 
 
         
